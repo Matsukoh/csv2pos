@@ -30,8 +30,8 @@ with open('outPos_arduino.txt', 'w') as f_arduino:
                 f_yaml.write("  - id: " + row[0] + "\n")
                 f_yaml.write("    coor_x: " + row[1] + "\n")
                 f_yaml.write("    coor_y: " + row[2] + "\n")
-		
-		n += 1
 
-            f_arduino.write(" " * 33)
-            f_arduino.write("};")
+                n += 1
+
+        f_arduino.write(" " * 33)
+        f_arduino.write("};")
