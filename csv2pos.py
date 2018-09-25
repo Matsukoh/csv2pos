@@ -14,7 +14,7 @@ with open('outPos_arduino.txt', 'w') as f_arduino:
             f_arduino.write("anchor_t anchors[num_anchors] = {" + "\n")
             f_yaml.write("pozyx_anchors:" + "\n")
 
-            n = 0
+            n = 1
 
             for row in reader:
 
